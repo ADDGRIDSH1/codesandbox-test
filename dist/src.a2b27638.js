@@ -178,6 +178,8 @@ module.hot.accept(reloadCSS);
 require("./styles.css");
 var const1 = "ほげ";
 console.log(const1);
+var let1 = "ふが";
+console.log(let1);
 },{"./styles.css":"src/styles.css"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -203,7 +205,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "43701" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39997" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
